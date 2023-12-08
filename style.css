@@ -10,8 +10,11 @@
 html{
     scroll-behavior: smooth;
 }
-.text-1,.text-2,.text-3{
-    color: #111;
+.text-1,.text-3{
+    color: #ffffff;
+}
+.text-2{
+    color:rgb(255, 255, 255) ;
 }
 
 /* custom scroll bar */
@@ -104,7 +107,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(0, 0, 0);
+    color: rgb(167, 189, 169);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -116,7 +119,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #000000;
+    color:rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 500;
     margin-left: 25px;
