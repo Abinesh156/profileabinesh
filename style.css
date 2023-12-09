@@ -626,3 +626,58 @@ footer span a:hover{
 img{
     width: 100%;
 }
+/* logo */
+.all
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.footercontainr1
+{
+    background-color: #111;
+    padding: 20px 20px 20px;
+}
+.socialmediaicon{
+    display: flex;
+    justify-content: center;
+    
+}
+.socialmediaicon a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialmediaicon a i{
+    font-size: 2em;
+    color: #000000;
+    opacity: 0.9;
+}
+.socialmediaicon a:hover
+{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialmediaicon a:hover i
+{
+    color:white;
+    transition: 0.5s;
+}
+.footerbottom{
+    
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+color: white;
+}
+.footerbottom span
+{
+    font-size: 20px;
+    color: #ff0000;
+    display: flex;
+    justify-content:center;
+}
