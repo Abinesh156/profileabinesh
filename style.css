@@ -107,7 +107,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(167, 189, 169);
+    color: rgb(209, 53, 53);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -200,13 +200,13 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: red;
+    color: rgb(252, 68, 68);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
     background: red;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
