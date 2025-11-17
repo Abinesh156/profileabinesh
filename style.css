@@ -681,3 +681,149 @@ color: white;
     display: flex;
     justify-content:center;
 }
+/* Experience Section Styling */
+.experience .title::after{
+    content: "my journey";
+}
+
+.experience .experience-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.experience .experience-content .card{
+    width: calc(50% - 20px);
+    background: #fff;
+    border-radius: 6px;
+    padding: 25px 20px;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    border-left: 4px solid red;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.experience .experience-content .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.experience .experience-content .card .box i{
+    font-size: 40px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.experience .experience-content .card .text{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.experience .experience-content .card p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* Responsive Fixes */
+@media (max-width: 947px){
+    .experience .experience-content .card{
+        width: 100%;
+    }
+}
+
+/* skills section styling */
+.skills .title::after{
+    content: "what i know";
+}
+
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.skills .skills-content .left p{
+    text-align: justify;
+}
+
+.skills .skills-content .left a{
+    display: inline-block;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid red;
+    transition: all 0.3s ease;
+}
+
+.skills .skills-content .left a:hover{
+    color: red;
+    background: none;
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: red; /* Your theme color */
+}
+
+/* Updated Skills Bar Widths */
+.skills-content .right .devops::before{
+    width: 90%;
+}
+
+.skills-content .right .iac::before{
+    width: 85%;
+}
+
+.skills-content .right .containers::before{
+    width: 80%;
+}
+
+.skills-content .right .cicd::before{
+    width: 85%;
+}
+
+.skills-content .right .monitoring::before{
+    width: 80%;
+}
+
+.skills-content .right .servers::before{
+    width: 75%;
+}
